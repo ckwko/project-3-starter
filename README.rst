@@ -335,7 +335,7 @@ You will be using some or all of the following pthread library calls:
 - ``pthread_mutex_unlock``
 - ``pthread_barrier_wait``
 
-Please refer to http://lemuria.cis.vtc.edu/~pchapin/TutorialPthread/pthread-Tutorial.pdf and https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html for tutorials on how to use pthreads. 
+Please refer to http://lemuria.cis.vtc.edu/~pchapin/TutorialPthread/pthread-Tutorial.pdf (or a copy at https://github.com/dongchen0523/os/blob/main/pthread-Tutorial.pdf if you cannot open the first link) and https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html for tutorials on how to use pthreads. 
 
 7) Reference Executables
 -----------------------------------
