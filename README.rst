@@ -258,7 +258,7 @@ Memory issues are able to make your code output the correct output on some runs 
 
 3) Development Workflow
 --------------------
-The performance criteria given above is based on the execution on isengard.mines.edu. Howver, due to limited capacity of Isengard, we suggest you establish the following workflow:
+The performance criteria given above is based on the execution on isengard.mines.edu. However, due to limited capacity of Isengard, we suggest you establish the following workflow:
 
 * As with prior projects, do the initial development on your local Docker image. 
 * Once you complete the initial functionality, push your changes to github.
