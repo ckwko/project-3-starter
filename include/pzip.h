@@ -19,6 +19,8 @@ struct thread_args {
 	int *char_frequency;
 	int sec_size;
 	int id;
+	int elements_found;
+	int start;
 };
 
 /**
