@@ -11,6 +11,16 @@ struct zipped_char {
 	uint8_t occurence;
 };
 
+struct thread_args {
+	char *input_chars;
+	int input_chars_size;
+	struct zipped_char *zipped_chars;
+	int *zipped_chars_count;
+	int *char_frequency;
+	int sec_size;
+	int id;
+};
+
 /**
  * pzip() - zip an array of characters in parallel
  *
@@ -31,5 +41,5 @@ void pzip(int n_threads, char *input_chars, int input_chars_size,
 	  struct zipped_char *zipped_chars, int *zipped_chars_count,
 	  int *char_frequency);
 
-
+void *count_chars(void *arg);
 #endif /* PZIP_H */
